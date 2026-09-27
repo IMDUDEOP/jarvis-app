@@ -1,0 +1,13 @@
+<resources xmlns:tools="http://schemas.android.com/tools">
+    <style name="Theme.JarvisRemote" parent="Theme.MaterialComponents.DayNight.NoActionBar">
+        <item name="android:windowBackground">@color/bg</item>
+        <item name="colorPrimary">@color/cyan</item>
+        <item name="colorPrimaryDark">@color/bg</item>
+        <item name="colorAccent">@color/cyan</item>
+        <item name="android:statusBarColor" tools:targetApi="21">@color/bg</item>
+    </style>
+
+    <style name="Theme.JarvisRemote.IncomingCall" parent="Theme.JarvisRemote">
+        <item name="android:windowIsTranslucent">false</item>
+    </style>
+</resources>
